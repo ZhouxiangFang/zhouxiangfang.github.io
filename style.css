@@ -29,7 +29,7 @@ name {
 }
 
 #wrapper {
-	border-width: 1px; border-style: solid; border-color: white; margin: 5px auto; width: 950px; text-align: center; position: relative;
+	border-width: 1px; border-style: solid; border-color: white; margin: 5px auto; width: 1050px; text-align: center; position: relative;
 }
 
 #content-wrap {
@@ -120,9 +120,9 @@ margin-bottom: 200%;
 border: none;
 padding: 5px;
 font: 16px/28px sans-serif;
-height: 260px;
+height: 160px;
 overflow: scroll;
-overflow-x: hidden;
+/* overflow-x: hidden; */
 }
 
 /* Scrollbar styles */
@@ -143,4 +143,16 @@ background: #ccc;
 
 ::-webkit-scrollbar-thumb:hover {
 background: #999;  
+}
+
+#AudioButton {
+	position: relative;
+	top: 15px;
+	border: none;
+	cursor: pointer;
+	background-color: transparent;
+}
+
+.pic {
+	border: none;
 }
